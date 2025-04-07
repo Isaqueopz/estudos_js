@@ -54,3 +54,6 @@
         // > >= < <= == === (igualdade estrita, valor e tipo) != () !== (diferente estrito, valor e tipo)
     // LÓGICOS
         // && || !()
+    //FALSY VALUES
+        // 0 '' "" `` null / undefined NaN
+    
