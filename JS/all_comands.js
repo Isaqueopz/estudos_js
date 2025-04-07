@@ -48,3 +48,9 @@
 // OBJETOS
     // cada objeto carrega um atributo e metodos
     // o uso de this é indispensavel quando utilizado de partes do objeto em algum metodo 
+
+// OPERADORES 
+    // COMPARAÇÃO
+        // > >= < <= == === (igualdade estrita, valor e tipo) != () !== (diferente estrito, valor e tipo)
+    // LÓGICOS
+        // && || !(não)
