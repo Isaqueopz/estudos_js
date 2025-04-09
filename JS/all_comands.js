@@ -30,14 +30,14 @@
         //math.random() gera um valor aleatório
         
         
-//ARRAY
+// ARRAY
     //push() colocar algo dentro no final do array
     //unshift() colocar algo no começo do array
     //pop() remove algum elemento do fim do array
         // pode salvar a constante removido do pop const removido = alunos.pop()
     //shift() remove o primeiro elemento do array 
 
-//FUNCTION
+// FUNCTION
     // abaixo do return nada é executado
     //fuction soma (x,y){
     // essa é a forma de declarar uma função
@@ -57,3 +57,20 @@
     //FALSY VALUES
         // 0 '' "" `` null / undefined NaN
     
+// OPERAÇÃO TERNARIA
+    // (condicao) ? 'Valor para verdadeiro' : 'Valor para falso '
+    // const nivelUsuario = pontuacaoaUsuario >= 1000 ? 'Usuário VIP' : 'Usuário normal';
+
+// DATE
+    // data = new Date (ano,mês,dia,hora,minuto,segundos,milésimos)
+    // o mês começa do 0 
+    // ('2019-04-20 20:20:59') -> pode utilizar assim 
+    // dia da semana 0 - domingo , 6 - sábado 
+
+// SWITCH CASE
+    // alternativa para casos específicos 
+    // switch () {
+    //     case 0:
+    //         ...
+    //     break;
+    // }
