@@ -74,6 +74,7 @@
     //         ...
     //     break;
     // }
+
 // ATRIBUIÇÃO VIA DESESTRUTURAÇÃO 
     // ARRAYS
         // const numeros = [1000,2000,3000,4000,5000];
@@ -81,4 +82,67 @@
         // const [primeiroNumero, , terceiroNumero, ...resto] = numeros;
         // rest operator || spread operator 
     // OBJETOS
-        //
+        // const pessoa = {
+        //    nome: 'Luiz',
+        //    sobrenome: 'Miranda',
+        //    idade: 30,
+        //    endereco: {
+        //       rua: 'Av Brasil',
+        //       numero: 320
+        //    }
+        // }
+        // const {nome  = 'Valor Padrão ', sobrenome, idade} = pessoa;
+        // const {endereco: {rua, numero}}
+        // console.log(nome,sobrenome, rua, numero);
+        // console.log (nome, ...resto) = pessoa; #REST
+
+// ESTRUTURAS DE REPETIÇÃO
+    // FOR #OBTÉM O VALOR DO ÍNDICE
+        // (i += 10) # espaçamento
+        // let i = 500; i >= 400; i -= 10 # inversão de condição
+    // FOR IN #OBTÉM O VALOR DO ÍNDICE
+        //VETOR
+            // for (let i in frutas) { # ele lê os índices do vetor
+            // console.log(frutas[i]);
+            // }
+        // OBJETOS
+            // const pessoa = {
+            //     nome: 'Luiz',
+            //     sobrenome: 'Otávio',
+            //     idade: 30
+            // };
+            // for (let chave in pessoa){
+            //     console.log(chave,pessoa[chave]);  
+            // }
+            
+    // FOR OF # NÃO OBTÉM O VALOR DO ÍNDICE
+        // for (let valor of nome) {
+        // console.log(valor);
+        // }
+   //RESUME:
+   // For clássico - Geralmente com iteráveis (array ou strings)
+   // For in - Retorna o índice ou chave (string, array ou objetos)
+   // For of - Retorna o valor em si (iteráveis, arrays ou strings)
+
+   // WHILE / DO WHILE
+       // O do while, executa pelo menos uma vez sempre e depois faz a checagem de condição
+
+// BREAK / CONTINUE
+    // continue -> pula a condição 
+    // break -> finaliza o codigo em um ponto de checagem
+
+// TRY(tentar), CATCH(capturar), THROW(lançar), FINALLY (finalmente)
+    // try{
+        //tenta executar
+    // } catch (err) {
+        //executado quando há erros
+    // }
+
+    // throw -> lança um erro 
+
+    // finally -> sempre será executado 
+        // console.log('fechei o arquivo');
+    
+
+// QuerySelectorAll('p')
+        // pega todos os elementos Ps de um local do DOM
