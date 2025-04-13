@@ -74,3 +74,11 @@
     //         ...
     //     break;
     // }
+// ATRIBUIÇÃO VIA DESESTRUTURAÇÃO 
+    // ARRAYS
+        // const numeros = [1000,2000,3000,4000,5000];
+        // const [primeiroNumero, segundoNumero, ...resto] = numeros;
+        // const [primeiroNumero, , terceiroNumero, ...resto] = numeros;
+        // rest operator || spread operator 
+    // OBJETOS
+        //
