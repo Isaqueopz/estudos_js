@@ -146,3 +146,12 @@
 
 // QuerySelectorAll('p')
         // pega todos os elementos Ps de um local do DOM
+
+// setInterval
+    //função vai ser executada de tempos em tempos || setInterval(fuction, tempo)
+
+// setTimeout com clearInterval -> para o evento 
+    // setTimeout(function(){
+    //     clearInterval(timer);
+    // }, 10000);
+    //função que vai executar com um tempo limite e depois parar
