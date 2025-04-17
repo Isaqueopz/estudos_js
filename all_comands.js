@@ -31,11 +31,54 @@
         
         
 // ARRAY
-    //push() colocar algo dentro no final do array
-    //unshift() colocar algo no começo do array
+    //push() colocar algo no final do array
+
     //pop() remove algum elemento do fim do array
-        // pode salvar a constante removido do pop const removido = alunos.pop()
-    //shift() remove o primeiro elemento do array 
+        // retorna o elemento removido (caso queira)
+
+    //shift() remove o primeiro elemento do array (Desloca todos os índices do array)
+        // retorna o elemento removido (caso queira)
+
+    //unshift() colocar algo no começo do array
+
+    //spread -> espalhar os elementos de um array para outro, é como se fosse uma cópia de um array para outro, sem afetar no array original caso eu faça alguma alteração no original
+
+    //slice(n,n-1) - fatiamento de arrays
+
+    //split - separdor de strings convertendo em arrays
+    //join - reune as strings separadas
+
+    //splice(indice atual,delete, elem for add) - retorna um array do que for removido
+
+    //concat - metódo de concatenação de arrayas
+        // a1.concat(a2)
+        //ou usar o spread
+        //[...a1,'luiz',...a2]
+    
+    //FILTER (filtrador de array sem alterar o original) - ela requer o return booleano da função callback, sempre retornara um array com a mesma quantidade de elementos ou menos
+        // numeros.filter(
+        //   fuction(valor,indice,array) {
+        //   return valor > 10;}  
+        // );
+
+        // ou com arrow fuction 
+
+        // numeros.filter(
+        //   (valor,indice,array) => {
+        //   return valor > 10;}  
+        // );
+    
+    //endsWith - função que verifica se uma string termina com determinado parametro
+
+    //MAP 
+        //praticamente a mesma coisa de filter porém no retorno final, eu retorno um array modificado do original, alterando também o original
+        // em vez de retornar um bool retorna o valor modificado 
+    
+    //REDUCE (recebe o acmulador como parametro tbm) (reduzir o array a um elemento só)
+        // ex: some todos os números
+
+    //FOR EACH -> só itera sobre os valores
+        //
 
 // FUNCTION
     // abaixo do return nada é executado
@@ -44,7 +87,11 @@
     //}
     //arrow fuction
     // const raiz = n => n ** 0.5;
-
+        // a função pode ser tratada como dado, ou seja, atribuida a uma variável 
+        // arguments -> pega todos os parametros passados na função e atribui a um array
+        // REST OPERATOR como parametro -> ...numeros
+    // callback
+        // função que chama outra função dentro dela mesmo, meio que esperando a execução da mesma para a primeira ser executada
 // OBJETOS
     // cada objeto carrega um atributo e metodos
     // o uso de this é indispensavel quando utilizado de partes do objeto em algum metodo 
@@ -155,3 +202,15 @@
     //     clearInterval(timer);
     // }, 10000);
     //função que vai executar com um tempo limite e depois parar
+
+// como capturar o click de algum botao? 
+    // primeiro você seleciona o botão
+    // const addTask = document.querySelector('.addTask');
+        //depois você captura o evento adicionando o um addEventListener
+            // addTask.addEventListener('click', function() {
+            // });
+    
+//PROMISES
+    // new Promise (resolve,reject)
+    //resolve - utiliza-se do then
+    //reject - utiliza- se do catch (captura erros)
