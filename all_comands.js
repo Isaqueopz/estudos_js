@@ -214,3 +214,23 @@
     // new Promise (resolve,reject)
     //resolve - utiliza-se do then
     //reject - utiliza- se do catch (captura erros)
+
+    //PROMISE.ALL
+        // resolve todas as promessas e depois traz todos os valores de volta
+    //PROMISE.RACE
+        // entrega a primeira coisa a ser resolvida 
+    //PROMISE.RESOLVE
+        // entrega a promessa resolvida de cara
+    //PROMISE.REJECT
+        // entrega a promessa rejeitada de cara
+
+    // ASYNC -> serve para rodar códigos de forma assíncrona
+        // AWAIT -> aqui ele vai esperar a promise ser resolvida ou rejeitada
+
+    // pending -> promessa pendente porque não nem capturada por then nem por catch 
+    // fullfiled -> promessa resolvida
+    // rejected -> promessa rejeitada 
+    
+    // fetch ('url',) O fetch é uma função do JavaScript que faz requisições HTTP (como GET ou POST) para um servidor. Ele serve para buscar ou enviar dados, como informações de uma API.
+        // retorna promises
+    
